@@ -1,0 +1,5 @@
+#labnotes
+
+* Starting threads https://stackoverflow.com/a/2677048/1319337
+* Github API issues https://developer.github.com/v3/issues/#response-1
+* Retrofit sample https://github.com/square/retrofit/blob/master/samples/src/main/java/com/example/retrofit/SimpleService.java

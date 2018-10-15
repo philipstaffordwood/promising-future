@@ -32,15 +32,14 @@ dependencies {
     androidTestImplementation 'com.android.support.test:runner:1.0.2'
     androidTestImplementation 'com.android.support.test.espresso:espresso-core:3.0.2'
 
-//    // We're using a backport of the unirest REST client library
-//    // it can be found on the Maven repo added to the Project gradle file
-//    // See https://github.com/zeeshanejaz/unirest-andro
-//    implementation 'com.mashape.unirest:unirest-android:1.0+'
-    // We're using Retrofit for the REST client implementation
-    // See http://square.github.io/retrofit/
-    implementation 'com.squareup.retrofit2:retrofit:2.4.0'
-
     // We're using a backport of the Java 8 CompletableFuture API upgraded to the current Java 9 (JEP 266) enhancements
     // See https://github.com/retrostreams/android-retrofuture
     implementation 'net.sourceforge.streamsupport:android-retrofuture:1.6.3'
+
+    // We're using Retrofit for the REST client implementation
+    // See http://square.github.io/retrofit/
+    implementation 'com.squareup.retrofit2:retrofit:2.4.0'
+    implementation 'com.squareup.retrofit2:converter-gson:2.0.0-beta4'
+
+
 }
